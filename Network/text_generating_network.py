@@ -7,7 +7,7 @@ import time
 
 
 # Read, then decode for py2 compat.
-text = open('file', 'rb').read().decode(encoding='utf-8')
+text = open('payloadWithoutLabels.txt', 'rb').read().decode(encoding='utf-8')
 # length of text is the number of characters in it
 #print(f'Length of text: {len(text)} characters')
 #print(text[:250])

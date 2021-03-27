@@ -2,16 +2,27 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import urllib.parse
 import time
+from http.cookies import SimpleCookie
+import random
 
 hostName = "localhost"
 serverPort = 8000
 
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
-        self.send_response(200)
-        self.send_header("Content-type", "text/html")
-        self.end_headers()
-        self.wfile.write(bytes(open("test_page.html",'r').read()+open("comments.txt",'r').read()+open("test_page2.html",'r').read(), "utf-8"))
+        print(self.path)
+        if self.path == "/favicon.ico":
+            self.send_response(500)
+        else:
+            c = ""
+            for i in range(0,21):
+                c += str(random.randint(0,9))
+            self.send_response(200)
+            if not self.headers.get('Cookie'):
+                self.send_header("Set-Cookie" , "session="+c)
+            self.send_header("Content-type", "text/html")
+            self.end_headers()
+            self.wfile.write(bytes(open("test_page.html",'r').read()+open("comments.txt",'r').read()+open("test_page2.html",'r').read(), "utf-8"))      
     def do_POST(self):
         content_length = int(self.headers['Content-Length'])
         post_data = self.rfile.read(content_length)

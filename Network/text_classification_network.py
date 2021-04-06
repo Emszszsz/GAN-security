@@ -8,23 +8,15 @@ stemmer = LancasterStemmer()
 
 # 3 classes of training data
 training_data = []
-training_data.append({"class":"attack", "sentence":"<script\x3Etype="'text/javascript'">javascript:alert(1);</script>"})
-training_data.append({"class":"attack", "sentence":"><\x3Cscript>javascript:alert(1)</script>"})
-training_data.append({"class":"attack", "sentence":"<script\x0Ctype=""text/javascript"">javascript:alert(1);</script>"})
-training_data.append({"class":"attack", "sentence":"<script\x2Ftype=""text/javascript"">javascript:alert(1);</script>"})
-
-for i in range(100):
+for i in range(200):
     with open("Network/payloadWithoutLabels.txt") as sentence:
-        training_data.append({"class":"attack", "sentence":f'{sentence}'})
-for i in range(100):
+        training_data.append({"class":"attack", "sentence":f'{sentence.readline()}'})
+
+for i in range(200):
     with open("Payloads/commentsWithoutLabels.txt") as sentence:
-        training_data.append({"class":"safe", "sentence":f"{sentence}"})
+        training_data.append({"class":"safe", "sentence":f"{sentence.readline()}"})
 
-training_data.append({"class":"safe", "sentence":"have a nice day"})
-training_data.append({"class":"safe", "sentence":"see you later"})
-training_data.append({"class":"safe", "sentence":"have a nice day"})
-training_data.append({"class":"safe", "sentence":"talk to you soon"})
-
+print("training data", training_data)
 print ("%s sentences in training data" % len(training_data))
 
 
@@ -252,11 +244,5 @@ def classify(sentence, show_details=False):
     print ("%s \n classification: %s" % (sentence, return_results))
     return return_results
 
-classify("sudo make me a sandwich")
-classify("how are you today?")
-classify("talk to you tomorrow")
-classify("who are you?")
-classify("make me some lunch")
-classify("how was your lunch today?")
-print()
+
 classify("<script\x3Etype="'text/javascript'">javascript:alert(1);</script>", show_details=True)

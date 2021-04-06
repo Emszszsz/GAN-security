@@ -10,6 +10,10 @@ serverPort = 8000
 
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
+        self.send_response(200)
+        self.send_header("Content-type", "text/html")
+        self.end_headers()
+        self.wfile.write(bytes(open("test_page.html",'r').read()+open("class.txt",'r').read()+open("test_page2.html",'r').read(), "utf-8"))
         print(self.path)
         if self.path == "/favicon.ico":
             self.send_response(500)
@@ -34,6 +38,14 @@ class MyServer(BaseHTTPRequestHandler):
         self.send_header("Content-type", "text/html")
         self.end_headers()
         self.wfile.write(bytes(open("test_page.html",'r').read()+open("comments.txt",'r').read()+open("test_page2.html",'r').read(), "utf-8"))
+    def do_DELETE(self):
+        f = open("comments.txt", "r+")
+        f.truncate()
+        f.close()
+        f= open("class.txt", "r+")
+        f.truncate()
+        f.close()
+
 if __name__ == "__main__": 
     open('comments.txt', 'w').close()
     webServer = HTTPServer((hostName, serverPort), MyServer)

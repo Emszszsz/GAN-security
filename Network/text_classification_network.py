@@ -251,5 +251,6 @@ comment = comments[-1][-1]
 print()
 classify(f'{comment}', show_details=True)
 f = open("Testing server/class.txt", "a")
+f.write(f'\n{comment}')
 f.write(str(classify(f'{comment}', show_details=True)))
 f.close()

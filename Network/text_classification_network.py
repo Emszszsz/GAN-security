@@ -244,5 +244,9 @@ def classify(sentence, show_details=False):
     print ("%s \n classification: %s" % (sentence, return_results))
     return return_results
 
-
-classify("<script\x3Etype="'text/javascript'">javascript:alert(1);</script>", show_details=True)
+file = open("Testing server/comments.txt")
+comments = []
+comments.append(file.readlines())
+comment = comments[-1][-1]
+print()
+classify(f'{comment}', show_details=True)

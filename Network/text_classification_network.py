@@ -8,12 +8,13 @@ stemmer = LancasterStemmer()
 
 # 3 classes of training data
 training_data = []
-for i in range(200):
-    with open("Network/payloadWithoutLabels.txt") as sentence:
+
+with open("Network/payloadWithoutLabels.txt") as sentence:
+    for i in range(500):
         training_data.append({"class":"attack", "sentence":f'{sentence.readline()}'})
 
-for i in range(200):
-    with open("Payloads/commentsWithoutLabels.txt") as sentence:
+with open("Payloads/commentsWithoutLabels.txt") as sentence:
+    for i in range(500):
         training_data.append({"class":"safe", "sentence":f"{sentence.readline()}"})
 
 print("training data", training_data)

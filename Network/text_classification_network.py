@@ -245,7 +245,7 @@ def classify(sentence, show_details=False):
     print ("%s \n classification: %s" % (sentence, return_results))
     return return_results
 
-file = open("Testing server/comments.txt")
+file = open("Testing server/comment_to_check.txt")
 comments = []
 comments.append(file.readlines())
 comment = comments[-1][-1]
@@ -254,4 +254,5 @@ classify(f'{comment}', show_details=True)
 f = open("Testing server/class.txt", "a")
 f.write(f'\n{comment}')
 f.write(str(classify(f'{comment}', show_details=True)))
+print(type(classify(f'{comment}', show_details=True)))
 f.close()

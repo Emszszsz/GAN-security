@@ -8,6 +8,9 @@ import random
 hostName = "localhost"
 serverPort = 8000
 
+"""TODO:
+generator zapisuje payloady w Network/workfile --> trzeba to włożyć do serwera"""
+
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
         self.send_response(200)

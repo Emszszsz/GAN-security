@@ -53,13 +53,7 @@ seq_length = 100
 examples_per_epoch = len(text)//(seq_length+1)
 
 sequences = ids_dataset.batch(seq_length+1, drop_remainder=True)
-"""
-for seq in sequences.take(1):
-  print(chars_from_ids(seq))
 
-for seq in sequences.take(5):
-  print(text_from_ids(seq).numpy())
-"""
 def split_input_target(sequence):
     input_text = sequence[:-1]
     target_text = sequence[1:]
@@ -68,11 +62,7 @@ def split_input_target(sequence):
 split_input_target(list("Tensorflow"))
 
 dataset = sequences.map(split_input_target)
-"""
-for input_example, target_example in  dataset.take(1):
-    print("Input :", text_from_ids(input_example).numpy())
-    print("Target:", text_from_ids(target_example).numpy())
-"""
+
 # Batch size
 BATCH_SIZE = 64
 
@@ -138,12 +128,6 @@ model.summary()
 sampled_indices = tf.random.categorical(example_batch_predictions[0], num_samples=1)
 sampled_indices = tf.squeeze(sampled_indices,axis=-1).numpy()
 
-#print(sampled_indices)
-"""
-print("Input:\n", text_from_ids(input_example_batch[0]).numpy())
-print()
-print("Next Char Predictions:\n", text_from_ids(sampled_indices).numpy())
-"""
 loss = tf.losses.SparseCategoricalCrossentropy(from_logits=True)
 
 example_batch_loss = loss(target_example_batch, example_batch_predictions)
@@ -240,7 +224,7 @@ result = [next_char]
 tf.saved_model.save(one_step_model, 'one_step')
 one_step_reloaded = tf.saved_model.load('one_step')
 
-for n in range(100):
+for n in range(30):
   next_char, states = one_step_reloaded.generate_one_step(next_char, states=states)
   result.append(next_char)
 

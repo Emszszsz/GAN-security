@@ -1,1 +1,6 @@
-
+<div id="space_box"> &nbsp</div>
+<div id="boxed">hej</div>
+<div id="space_box"> &nbsp</div>
+<div id="boxed">super fajny</div>
+<div id="space_box"> &nbsp</div>
+<div id="boxed">simanowice</div>

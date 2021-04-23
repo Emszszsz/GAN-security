@@ -224,7 +224,7 @@ result = [next_char]
 tf.saved_model.save(one_step_model, 'one_step')
 one_step_reloaded = tf.saved_model.load('one_step')
 
-for n in range(100):
+for n in range(30):
   next_char, states = one_step_reloaded.generate_one_step(next_char, states=states)
   result.append(next_char)
 

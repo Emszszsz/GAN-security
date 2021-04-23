@@ -17,7 +17,7 @@ with open("Payloads/commentsWithoutLabels.txt") as sentence:
     for i in range(500):
         training_data.append({"class":"safe", "sentence":f"{sentence.readline()}"})
 
-print("training data", training_data)
+
 print ("%s sentences in training data" % len(training_data))
 
 
@@ -218,14 +218,14 @@ def train(X, y, hidden_neurons=10, alpha=1, epochs=50000, dropout=False, dropout
 
 X = np.array(training)
 y = np.array(output)
-
+"""
 start_time = time.time()
 
 train(X, y, hidden_neurons=20, alpha=0.1, epochs=100000, dropout=False, dropout_percent=0.2)
 
 elapsed_time = time.time() - start_time
 print ("processing time:", elapsed_time, "seconds")
-
+"""
 
 # probability threshold
 ERROR_THRESHOLD = 0.2
@@ -238,7 +238,6 @@ with open(synapse_file) as data_file:
 
 def classify(sentence, show_details=False):
     results = think(sentence, show_details)
-
     results = [[i,r] for i,r in enumerate(results) if r>ERROR_THRESHOLD ]
     results.sort(key=lambda x: x[1], reverse=True)
     return_results =[[classes[r[0]],r[1]] for r in results]

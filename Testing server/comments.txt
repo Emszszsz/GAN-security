@@ -4,3 +4,10 @@
 <div id="boxed">super fajny</div>
 <div id="space_box"> &nbsp</div>
 <div id="boxed">simanowice</div>
+<div id="space_box"> &nbsp</div>
+<div id="boxed">nie wiem</div>
+<div id="space_box"> &nbsp</div>
+<div id="boxed">no super</div>
+<div id="space_box"> &nbsp</div>
+<div id="boxed">a siema
+</div>

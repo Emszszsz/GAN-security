@@ -14,6 +14,9 @@ print("after import")
 hostName = "localhost"
 serverPort = 8000
 
+"""TODO:
+generator zapisuje payloady w Network/workfile --> trzeba to włożyć do serwera"""
+
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
         print(self.path)

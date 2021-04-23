@@ -18,10 +18,33 @@ epochs = [i for i in range(20)]
 loss_values = [4.7840, 3.6616, 2.7529, 2.2899, 1.9849, 1.7047, 1.4723, 1.2620, 1.1316, 0.9975]
 epochs = [i for i in range(10)]
 
+loss_values = [4.6667,
+3.5142,
+2.6267,
+2.1703,
+1.8479,
+1.6064,
+1.3594,
+1.2030,
+ 1.0595,
+0.9049,
+ 0.7904,
+ 0.7093,
+ 0.6186,
+ 0.5520,
+0.4822,
+ 0.4211,
+ 0.3899,
+0.3331,
+0.3151,
+0.2768]
+
+epochs = [i for i in range(20)]
+
 plt.plot(epochs, loss_values)
 plt.xlim(0, 10)
 plt.ylim(0, 5)
-plt.title('Loss function in text generating network fourth training')
+plt.title('Loss function in text generating network fifth training')
 plt.xlabel("epochs")
 plt.ylabel("loss")
 plt.show()

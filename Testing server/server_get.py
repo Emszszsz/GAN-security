@@ -23,15 +23,20 @@ class MyServer(BaseHTTPRequestHandler):
         if self.path == "/favicon.ico":
             self.send_response(500)
         else:
-            c = ""
-            for i in range(0,21):
-                c += str(random.randint(0,9))
-            self.send_response(200)
-            if not self.headers.get('Cookie'):
-                self.send_header("Set-Cookie" , "session="+c)
-            self.send_header("Content-type", "text/html")
-            self.end_headers()
-            self.wfile.write(bytes(open("Testing server/test_page.html",'r').read()+open("Testing server/comments.txt",'r').read()+open("Testing server/test_page2.html",'r').read(), "utf-8"))      
+            if self.path == "/WIT_0.png":
+                self.send_response(200)
+                pic = open('Testing server/WIT_0.png', 'rb')
+                self.wfile.write(pic.read())
+            else:
+                c = ""
+                for i in range(0,21):
+                    c += str(random.randint(0,9))
+                self.send_response(200)
+                if not self.headers.get('Cookie'):
+                    self.send_header("Set-Cookie" , "session="+c)
+                self.send_header("Content-type", "text/html")
+                self.end_headers()
+                self.wfile.write(bytes(open("Testing server/test_page.html",'r').read()+open("Testing server/comments.txt",'r').read()+open("Testing server/test_page2.html",'r').read(), "utf-8"))      
     def do_POST(self):
         print("dostałem posta")
         content_length = int(self.headers['Content-Length'])
